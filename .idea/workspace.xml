@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49bcfd0f-b031-478d-bf95-ad65aa7a5a4a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lab_1_repo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab_1_repo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/java/org/example/lab_2/HelloApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/java/org/example/lab_2/Launcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/java/org/example/lab_2/LoginPageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/java/org/example/lab_2/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/java/org/example/lab_2/UsersApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/java/org/example/lab_2/WelcomePageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/resources/org/example/lab_2/login-page.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_2/src/main/resources/org/example/lab_2/welcome-page.fxml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3DDLzoRR7SyMbIhUCkNN4pt42Jk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "lab-3-branch",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Github/lab_1_repo",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49bcfd0f-b031-478d-bf95-ad65aa7a5a4a" name="Changes" comment="" />
+      <created>1777811963743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777811963743</updated>
+      <workItem from="1777811966109" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
