@@ -2,8 +2,13 @@ package org.example.lab_2;
 
 public class User
 {
+    // The username and password
     private String userName;
     private String password;
+
+    // The amount of failed login attempts and the time of the block
+    private int failedAttempts;
+    private long timeOfBlock;
 
     // Constructor for the User object.
     // It runs validation checks on both parameters before assignment.
@@ -13,10 +18,13 @@ public class User
         validatePassword(_password);
         this.userName = _userName;
         this.password = _password;
+
+        failedAttempts = 0;
+        timeOfBlock = 0;
     }
 
     // Validates the username format and length.
-    private void validateUserName(String userName)
+    private  void validateUserName(String userName)
     {
         if (userName.length() > 50)
         {
@@ -49,7 +57,6 @@ public class User
         }
     }
 
-
     // Getters for the userName and Password
     public String getUserName()
     {
@@ -62,24 +69,34 @@ public class User
     }
 
 
+    // Increasing the failed attempts counter by 1
+    public synchronized void increaseFailedAttempts()
+    {
+        this.failedAttempts += 1;
+    }
 
+    // Resetting the failed attempts counter and the time for the block
+    public synchronized void resetFailedAttempts()
+    {
+        this.failedAttempts = 0;
+        this.timeOfBlock = 0;
+    }
 
+    // Saving the time of the block
+    public synchronized void saveTimeOfBlock()
+    {
+        this.timeOfBlock = System.currentTimeMillis();
+    }
 
+    // Getters for the failed attempts and the time of block
+    public int getFailedAttempts()
+    {
+        return this.failedAttempts;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    public synchronized long getTimeOfBlock()
+    {
+        return this.timeOfBlock;
+    }
 
 }

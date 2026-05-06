@@ -9,6 +9,7 @@ import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 
 // Controller class for the Welcome Page.
@@ -16,6 +17,18 @@ import java.io.IOException;
 // primarily allowing the user to navigate back to the login screen.
 public class WelcomePageController
 {
+
+    private ArrayList<User> allUsers;
+    private int maxAttempts;
+    private int blockTime;
+
+    public void setData(ArrayList<User> users, int maxAttempts, int blockTime)
+    {
+        this.allUsers = users;
+        this.maxAttempts = maxAttempts;
+        this.blockTime = blockTime;
+    }
+
 
     @FXML
     private Label Welcome_Label;
@@ -38,8 +51,9 @@ public class WelcomePageController
             // Access the LoginPageController to pass the necessary user data
             LoginPageController controller = loader.getController();
 
-            // Re-populate the user list from the data source (as per lab requirements)
-            controller.setUsers(UsersApp.CreateUserList());
+            controller.setUsers(this.allUsers);
+            controller.setMaxAttempts(this.maxAttempts);
+            controller.setBlockTime(this.blockTime);
 
             // Set the new scene and update the stage title
             stage.setScene(new Scene(root));

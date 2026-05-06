@@ -7,10 +7,20 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+
+        int maxAttempts;
+        int blockTime;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter max attempts for login: ");
+        maxAttempts = scanner.nextInt();
+        System.out.print("Enter block time in seconds: ");
+        blockTime = scanner.nextInt();
+        scanner.close();
 
         // Calling the UsersApp class and getting an arrayList of users.
         // the CreateUserList() method is static.
@@ -24,6 +34,10 @@ public class HelloApplication extends Application {
         // and passing it the arrayList of users.
         LoginPageController controller = loginPage.getController();
         controller.setUsers(userList);
+
+        // Passing the maxAttempts and the blockTime variables to the LoginPageController,
+        controller.setMaxAttempts(maxAttempts);
+        controller.setBlockTime(blockTime);
 
         stage.setTitle("Login page");
         stage.setScene(scene);
